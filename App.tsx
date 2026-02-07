@@ -6,7 +6,7 @@ import {
   ArrowRightLeft, Loader2, AlertCircle, RefreshCw, UserCheck2
 } from 'lucide-react';
 import { Lead, LeadStatus, LeadOrigin, DashboardStats, Qualification } from './types';
-import { supabase } from './lib/supabase';
+import { supabase } from './supabase';
 import StatsCard from './StatsCard';
 import LeadsTable from './LeadsTable';
 import LeadDetailModal from './LeadDetailModal';
